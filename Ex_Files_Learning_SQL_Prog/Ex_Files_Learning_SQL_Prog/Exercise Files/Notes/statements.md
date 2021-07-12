@@ -2,7 +2,8 @@
 
 This document provides a list of SQL statements used in the course _Learning SQL Programming_ from LinkedIn Learning.
 
-Note that this list contains statements which are improper (they have syntax errors) and statements which are incorrect (they do not achieve the desired goal).
+Note that this list contains statements which are improper (they have syntax errors) and
+ statements which are incorrect (they do not achieve the desired goal).
 
 ## 00_02
 
@@ -55,19 +56,19 @@ SELECT * FROM people WHERE state_code='CA';
 ```
 
 ```SQL
-SELECT * FROM people WHERE state_code='ca';
+SELECT * FROM people WHERE state_code='ca';  --statement
 ```
 
 ```SQL
-SELECT * FROM people WHERE state_code='FL';
+SELECT * FROM people WHERE state_code='FL';  --statement
 ```
 
 ```SQL
-SELECT * FROM people WHERE state_code='WA';
+SELECT * FROM people WHERE state_code='WA';  --statement
 ```
 
 ```SQL
-SELECT * FROM people WHERE state_code='NY';
+SELECT * FROM people WHERE state_code='NY'; --statement 
 ```
 
 ```SQL
@@ -79,17 +80,17 @@ SELECT first_name, last_name FROM people WHERE shirt_or_hat='shirt';
 ```
 
 ```SQL
-SELECT first_name, last, name, shirt_or_hat
-FROM people
-WHERE
+SELECT first_name, last, name, shirt_or_hat  --clauses
+FROM people  --clauses
+WHERE  --clauses
 shirt_or_hat='shirt';
 ```
 
 ```SQL
 /* Improper Statement */
-WHERE shirt_or_hat='shirt'
-FROM people
-SELECT first_name, last_name, shirt_or_hat;
+WHERE shirt_or_hat='shirt'   --clauses
+FROM people   --clauses
+SELECT first_name, last_name, shirt_or_hat;  --clauses
 ```
 
 ```SQL
